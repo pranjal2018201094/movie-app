@@ -7,7 +7,7 @@ genre, rating, and streaming link. The API should allow users to:
 4. Update an existing movie information (title, genre, rating, or streaming link)
 5. Delete a movie from the lobby
 
-To start application
+## To start application
 
 Pre-Requisite
 Start Mongodb Server.
