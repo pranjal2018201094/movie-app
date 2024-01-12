@@ -9,10 +9,10 @@ genre, rating, and streaming link. The API should allow users to:
 
 ## To start application
 
-Pre-Requisite
-Start Mongodb Server.
-Create a db named ```movie-lobby```.
-Add Users in User collection with following details
+**Pre-Requisite**
+- Start Mongodb Server.
+- Create a db named ```movie-lobby```.
+- Add Users in User collection with following details
 ```
 {
     name: 'User1',
@@ -29,14 +29,15 @@ Add Users in User collection with following details
     password: 'Password@123',
 };
 ```
-To generate jwt token use - https://jwt.io/
+- To generate jwt token use - https://jwt.io/
+  
 Below is the screenshot for the changes
 <img width="1259" alt="Screenshot 2024-01-12 at 2 09 15 PM" src="https://github.com/pranjal2018201094/movie-app/assets/42588172/0e876337-6274-40bd-a234-fa286f8369c8">
 
-Import postman collection from Repo.
+- Import postman collection from Repo.
 
-Steps
-Run make bootstrap on terminal.
-Run 'yarn start' on terminal.
-Hit apis from postman
-To Run the test cases 'yarn test'
+**Steps to run the services**
+- Run make bootstrap on terminal.
+- Run 'yarn start' on terminal.
+- Hit apis from postman
+- To Run the test cases 'yarn test'
