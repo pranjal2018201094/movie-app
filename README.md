@@ -11,7 +11,7 @@ To start application
 
 Pre-Requisite
 Start Mongodb Server.
-Create a db named movie-lobby.
+Create a db named ```movie-lobby```.
 Add Users in User collection with following details
 ```
 {
